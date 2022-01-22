@@ -12,4 +12,16 @@ public class SmartPhone extends SmartDevice{
         this.memoryCapacity = memoryCapacity;
         this.RAM_SIZE = RAM_SIZE;
     }
+
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", anoFabricacion=" + anoFabricacion +
+                ", sistemaOperativo='" + sistemaOperativo + '\'' +
+                ", memoryCapacity=" + memoryCapacity +
+                ", RAM_SIZE=" + RAM_SIZE +
+                '}';
+    }
 }

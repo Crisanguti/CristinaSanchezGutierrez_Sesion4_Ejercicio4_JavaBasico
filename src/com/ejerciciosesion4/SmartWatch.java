@@ -12,4 +12,16 @@ public class SmartWatch extends SmartDevice {
         this.supportsSpotify = supportsSpotify;
         this.supportsIphone = supportsIphone;
     }
+
+    @Override
+    public String toString() {
+        return "SmartWatch{" +
+                "marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", anoFabricacion=" + anoFabricacion +
+                ", isSumergible=" + isSumergible +
+                ", supportsSpotify=" + supportsSpotify +
+                ", supportsIphone=" + supportsIphone +
+                '}';
+    }
 }
